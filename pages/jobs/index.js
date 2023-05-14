@@ -30,20 +30,33 @@ export default function index() {
     );
   };
   useEffect(() => {
-    if (searchText == '' || sortText) {
+    if (searchText == '' && sortText == '') {
       fetchJobs();
-      console.log(sortText);
+    } else if (sortText !== '') {
+      console.log('fetch sort');
+      let sortArray;
+      fetchJobs();
+      if (sortText === 'title') {
+        sortArray = jobs.sort((a, b) =>
+          a.job_title.toLowerCase() > b.job_title.toLowerCase() ? 1 : -1
+        );
+      }
+      console.log(sortArray);
+      setJobs(sortArray);
     } else {
       fetchJobsearch();
       // console.log(filteredjobs);
     }
-  }, [searchText]);
+  }, [searchText, sortText]);
   return (
     <div className="page">
       <Filters setSearchText={setSearchText} setSortText={setSortText} />
       {sortText}
-      {searchText == '' && <JobListing jobs={jobs} />}
-      {searchText !== ' ' && filteredjobs && <JobListing jobs={filteredjobs} />}
+      {searchText == '' ? (
+        <JobListing jobs={jobs} />
+      ) : (
+        <JobListing jobs={filteredjobs} />
+      )}
     </div>
   );
 }

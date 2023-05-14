@@ -33,7 +33,7 @@ export default (req, res) => {
       notice_period: '15 days',
     },
     {
-      id: 2,
+      id: 3,
       company_name: 'EDC creative technology',
       company_address: '#189,Ravi nagar,gokul road hubli',
       location: 'hubli',
@@ -47,7 +47,7 @@ export default (req, res) => {
       notice_period: '15 days',
     },
     {
-      id: 2,
+      id: 4,
       company_name: 'EDC creative technology',
       company_address: '#189,Ravi nagar,gokul road hubli',
       location: 'hubli',
@@ -61,7 +61,7 @@ export default (req, res) => {
       notice_period: '15 days',
     },
     {
-      id: 2,
+      id: 5,
       company_name: 'EDC creative technology',
       company_address: '#189,Ravi nagar,gokul road hubli',
       location: 'hubli',
@@ -75,7 +75,7 @@ export default (req, res) => {
       notice_period: '15 days',
     },
     {
-      id: 2,
+      id: 6,
       company_name: 'EDC creative technology',
       company_address: '#189,Ravi nagar,gokul road hubli',
       location: 'hubli',
@@ -89,7 +89,7 @@ export default (req, res) => {
       notice_period: '15 days',
     },
     {
-      id: 2,
+      id: 7,
       company_name: 'EDC creative technology',
       company_address: '#189,Ravi nagar,gokul road hubli',
       location: 'hubli',
@@ -103,7 +103,7 @@ export default (req, res) => {
       notice_period: '15 days',
     },
     {
-      id: 2,
+      id: 8,
       company_name: 'EDC creative technology',
       company_address: '#189,Ravi nagar,gokul road hubli',
       location: 'hubli',
@@ -117,7 +117,7 @@ export default (req, res) => {
       notice_period: '15 days',
     },
     {
-      id: 2,
+      id: 9,
       company_name: 'EDC creative technology',
       company_address: '#189,Ravi nagar,gokul road hubli',
       location: 'hubli',
@@ -131,7 +131,7 @@ export default (req, res) => {
       notice_period: '15 days',
     },
     {
-      id: 2,
+      id: 10,
       company_name: 'EDC creative technology',
       company_address: '#189,Ravi nagar,gokul road hubli',
       location: 'hubli',
@@ -145,7 +145,7 @@ export default (req, res) => {
       notice_period: '15 days',
     },
     {
-      id: 2,
+      id: 11,
       company_name: 'EDC creative technology',
       company_address: '#189,Ravi nagar,gokul road hubli',
       location: 'hubli',
@@ -159,7 +159,7 @@ export default (req, res) => {
       notice_period: '15 days',
     },
     {
-      id: 2,
+      id: 12,
       company_name: 'EDC creative technology',
       company_address: '#189,Ravi nagar,gokul road hubli',
       location: 'hubli',
@@ -173,7 +173,7 @@ export default (req, res) => {
       notice_period: '15 days',
     },
     {
-      id: 2,
+      id: 13,
       company_name: 'EDC creative technology',
       company_address: '#189,Ravi nagar,gokul road hubli',
       location: 'hubli',
@@ -187,7 +187,7 @@ export default (req, res) => {
       notice_period: '15 days',
     },
     {
-      id: 2,
+      id: 14,
       company_name: 'EDC creative technology',
       company_address: '#189,Ravi nagar,gokul road hubli',
       location: 'hubli',
@@ -201,7 +201,7 @@ export default (req, res) => {
       notice_period: '15 days',
     },
     {
-      id: 2,
+      id: 15,
       company_name: 'EDC creative technology',
       company_address: '#189,Ravi nagar,gokul road hubli',
       location: 'hubli',
@@ -215,7 +215,7 @@ export default (req, res) => {
       notice_period: '15 days',
     },
     {
-      id: 2,
+      id: 16,
       company_name: 'EDC creative technology',
       company_address: '#189,Ravi nagar,gokul road hubli',
       location: 'hubli',
@@ -229,7 +229,7 @@ export default (req, res) => {
       notice_period: '15 days',
     },
     {
-      id: 2,
+      id: 17,
       company_name: 'EDC creative technology',
       company_address: '#189,Ravi nagar,gokul road hubli',
       location: 'hubli',
@@ -243,7 +243,7 @@ export default (req, res) => {
       notice_period: '15 days',
     },
     {
-      id: 2,
+      id: 18,
       company_name: 'EDC creative technology',
       company_address: '#189,Ravi nagar,gokul road hubli',
       location: 'hubli',
