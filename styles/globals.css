@@ -21,8 +21,22 @@ a {
 .listview {
 }
 .listview .list-item {
-  background-color: aquamarine;
+  background-color: #d3d3d3;
   padding: 20px;
   margin: 10px 0px;
   cursor: pointer;
+  border-radius: 10px;
+}
+.listview .list-item:hover {
+  background-color: #d9d9d9;
+}
+.listview .list-item h6 {
+  padding: 0;
+  margin: 10px 0;
+  font-size: 14px;
+}
+.search-filter-job {
+  padding: 10px;
+  width: 100%;
+  border: 3px solid #939399;
 }
